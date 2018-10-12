@@ -1,0 +1,32 @@
+agc-rating .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    font-size: 1.5em;
+}
+agc-rating .rating__label {
+    font-size: .7em;
+    margin: 0;
+    padding: 0;
+    direction: ltr!important;
+}
+agc-rating .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    cursor: pointer;
+}
+agc-rating .rating > span.active,
+agc-rating .rating > span.active ~ span,
+agc-rating .rating > span:hover,
+agc-rating .rating > span:hover ~ span {
+    color: transparent;
+}
+agc-rating .rating > span.active:before,
+agc-rating .rating > span:hover:before,
+agc-rating .rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    left: 0; 
+    color: gold;
+}

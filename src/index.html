@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="/build/agc-ui.js"></script>
+  <script src='https://unpkg.com/am-rating@0.0.6/dist/am-rating.js'></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <style>
+    body {
+      background: black url(https://picsum.photos/1200/900/?image=487&blur) no-repeat;
+      background-size: 100%;
+    }
+  </style>
+</head>
+<body>
+  <simple-step></simple-step>
+  <script>
+    window.addEventListener('ratingCompleted', e => console.log(e.detail));
+  </script>
+</body>
+</html>

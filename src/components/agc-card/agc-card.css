@@ -1,0 +1,23 @@
+agc-card .agc-card {
+    background-color: var(--agc-card-background-color, #fff);
+    border: 1px solid var(--agc-card-border-color, #e4eaec);
+    border-radius: 8px; 
+}
+
+agc-card .agc-card-no-border {
+    border-width: 0!important;
+}
+
+agc-card .agc-card__header {
+    background-color: var(--agc-card-header-background-color);
+    border-bottom: 1px solid var(--agc-card-header-border-color);
+}
+
+agc-card .agc-card__footer {
+    background-color: var(--agc-card-footer-background-color);
+    border-top: 1px solid var(--agc-card-footer-border-color);
+}
+
+agc-card .agc-p-30 {
+    padding: 30px!important;
+}

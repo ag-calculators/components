@@ -1,0 +1,20 @@
+simple-step {
+    
+}
+.text-center {
+    text-align: center;
+}
+.form-title, .form-description, a {
+    color: white;
+}
+agc-form-footer a {
+    color: black;
+    text-decoration: none;
+}
+.form-description {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+a.install {
+    padding: 10px 0;
+}

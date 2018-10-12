@@ -1,0 +1,86 @@
+agc-multistep {
+    background: white;
+}
+agc-multistep .error {
+    color: darkred;
+    margin: 5px 0;
+}
+agc-multistep label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+agc-multistep input[type=text], agc-multistep input[type=date], agc-multistep select, agc-multistep textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+agc-multistep div.field-errors input[type=text], div.field-errors input[type=date], agc-multistep div.field-errors select, agc-multistep div.field-errors textarea {
+    border-color: darkred !important;
+}
+.multistep-form {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.multistep-form.clear {
+    border-width: 0px;
+}
+.multistep-form__content, .multistep-form__complete {
+    overflow: hidden;
+    padding: 10px;
+}
+.multistep-form__title {
+    background: #16A2D7;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.input-info {
+    margin: 0;
+    padding: 0;
+    color: #888;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    agc-multistep .multistep-form {
+        width: 100%!important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    agc-multistep .multistep-form {
+        width: 550px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    agc-multistep .multistep-form {
+        width: 718px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    agc-multistep .multistep-form {
+        width: 718px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    agc-multistep .multistep-form {
+        width: 718px;
+    }
+}

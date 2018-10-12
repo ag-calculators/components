@@ -1,0 +1,76 @@
+agc-counter .counter {
+    text-align: center
+}
+
+agc-counter .counter .counter-number-group, agc-counter .counter > .counter-number {
+    font-size: 20px;
+    color: #37474f
+}
+
+agc-counter .counter-label {
+    display: block
+}
+
+agc-counter .counter-icon {
+    font-size: 20px
+}
+
+agc-counter .counter-lg .counter-number-group, agc-counter  .counter-lg>.counter-number {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+agc-counter .counter-lg .counter-icon {
+    font-size: 40px
+}
+
+agc-counter .counter-md .counter-number-group, agc-counter .counter-md>.counter-number {
+    font-size: 30px;
+    margin: 8px 0;
+}
+
+agc-counter .counter-md .counter-icon {
+    font-size: 30px
+}
+
+agc-counter .counter-sm .counter-number-group, agc-counter .counter-sm>.counter-number {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+agc-counter .counter-sm .counter-icon {
+    font-size: 20px
+}
+
+agc-counter .counter-sm .counter-number+.counter-number-related,
+agc-counter .counter-sm .counter-number-related+.counter-number {
+    margin-left: 0
+}
+
+agc-counter .counter-inverse {
+    color: #fff
+}
+
+agc-counter .counter-inverse .counter-number-group,.counter-inverse>.counter-number {
+    color: #fff
+}
+
+agc-counter .counter-inverse .counter-icon {
+    color: #fff
+}
+
+agc-counter .text-uppercase {
+    text-transform: uppercase!important;
+}
+
+agc-counter .mb-5 {
+    margin-bottom: 5px!important
+}
+
+agc-counter .mb-10 {
+    margin-bottom: 10px!important
+}
+
+agc-counter .mr-10 {
+    margin-right: 10px!important
+}

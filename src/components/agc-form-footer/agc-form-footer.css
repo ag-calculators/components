@@ -1,0 +1,84 @@
+agc-form-footer .formFooter {
+  /**
+     * Lay out the children of this container with
+     * flexbox, which is horizontal by default.
+     */
+  display: flex;
+
+  /**
+     * Make the container put as much space as possible
+     * between its children, with the children at either
+     * end laying flush against the container's edges.
+     */
+  justify-content: space-between;
+
+  /**
+     * Align the children in the center, along
+     * the main axis, which is horizontal in this case.
+     */
+  align-items: center;
+
+  border-top: 1px solid #D7DBDD;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+agc-form-footer .formFooter__section {
+  /**
+       * This container orders items horizontally.
+       */
+  display: flex;
+
+  /**
+       * It aligns them vertically in the center.
+       */
+  align-items: center;
+}
+
+agc-form-footer .formFooter__item+.formFooter__item {
+  margin-left: 5px;
+}
+
+agc-form-footer .formFooterFeedback {
+  color: #86969C;
+  font-size: .9em;
+  line-height: 0;
+}
+
+agc-form-footer .formFooterSpinner {
+  animation: formFooterSpinner 1s infinite steps(8, end);
+}
+
+@keyframes formFooterSpinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+    cursor: pointer;
+    padding: 5px 15px;
+    color: #FFFFFF;
+    background-color: #4EBBE4;
+    font-size: 1em;
+    border: 1px solid #16A2D7;
+    border-radius: 4px;
+}
+
+agc-form-footer .button--clear {
+  color: #16A2D7;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+
+  agc-form-footer .formFooterFeedback {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+:root {
+    --app-primary-color: #488aff;
+
+    --agc-card-background-color: #fff;
+    --agc-card-border-color: #e4eaec;
+    --agc-card-header-background-color: #f3f7f9;
+    --agc-card-header-border-color: #e4eaec;
+    --agc-card-footer-background-color: #f3f7f9;
+    --agc-card-footer-border-color: #e4eaec;
+  }

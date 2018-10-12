@@ -1,0 +1,67 @@
+agc-step .step {
+    position: relative;
+    padding: 12px 20px;
+    margin: 0;
+    font-size: inherit;
+    color: #a3afb7;
+    vertical-align: top;
+    background-color: #f3f7f9;
+    border-radius: 0
+}
+
+agc-step .step-icon {
+    float: left;
+    margin-right: .5em;
+    font-size: 20px
+}
+
+agc-step .step-number {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    background: #e4eaec;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+agc-step .step-number~.step-desc {
+    min-height: 40px;
+    margin-left: 50px
+}
+
+agc-step .step-title {
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #526069
+}
+
+agc-step .step-desc {
+    text-align: left
+}
+
+agc-step .step-desc p {
+    margin-bottom: 0
+}
+
+agc-step .step.active, agc-step .step.current {
+    color: #fff;
+    background-color: #3e8ef7
+}
+
+agc-step .step.active .step-title, agc-step .step.current .step-title {
+    color: #fff
+}
+
+agc-step .step.active .step-number, agc-step .step.current .step-number {
+    color: #3e8ef7;
+    background-color: #fff
+}

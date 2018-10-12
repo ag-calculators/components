@@ -1,0 +1,9 @@
+agc-flex-stack .flex-stack {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+}
+  
+agc-flex-stack .flex-stack__content {
+    flex: 1;
+}
